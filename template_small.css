@@ -1,0 +1,890 @@
+/*Small Style Sheet for HTML Templates */
+
+
+/*Base Template Styles should begin here*/
+.htemp_main_container
+{
+    min-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 10px;
+}
+.htemp_sec_conatiner
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.element_width_25
+{
+    width: 25%;
+}
+.element_width_50
+{
+    width: 50%;
+}
+.element_width_33
+{
+    width: 33.333333%;
+}
+.element_width_100
+{
+    width: 100%;
+}
+.hide_mobile
+{
+    display: none;
+}
+
+/***Styles Specific to Template Buttons***/
+.btn_public
+{
+    display: inline-block;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    background-color: #999;
+    border-radius: 25px;
+    min-width: 200px;
+    text-align: center;
+}
+.baseform_action_container .btn_public
+{
+    color: #fff;
+    font-size: 14pt;
+}
+.btn_public:hover
+{
+    background-color: #000;
+}
+/***Styles Specific to Template Buttons***/
+/***Styles Specific to Background Colors***/
+.bkg_clr_wht_trans
+{
+    background-color: #fff;
+    background-color: rgba(250,250,250,0.7);
+}
+.bkg_clr_blk_trans
+{
+    background-color: #000;
+    background-color: rgba(0,0,0,0.7);
+}
+.bkg_clr_gry_trans
+{
+    background-color: #999;
+    background-color: rgba(153, 153, 153,0.7);
+}
+.bkg_clr_wht
+{
+    background-color: #fff;
+}
+.bkg_clr_blk
+{
+    background-color: #000;
+}
+.bkg_clr_gry
+{
+    background-color: #999;
+}
+/***Styles Specific to Background Colors***/
+/*Base Template Styles should end here*/
+
+/*Style for Card Grid Begins*/
+.htemp_grid_heading
+{
+    text-align: center;
+    font-size: 36pt;
+    font-weight: 200;
+    margin: 0;
+}
+.htemp_grid_card
+{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+.htemp_grid_img
+{
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-width: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.htemp_grid_img img
+{
+    width: 100%;
+}
+.htemp_grid_content
+{
+    display: block;
+    width: 100%;
+    margin: auto;
+    vertical-align: top;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 450px;
+}
+.htemp_grid_content_title
+{
+    font-weight: 400;
+    font-size: 12pt;
+    margin: 0;
+    padding: 10px 0;
+}
+.htemp_grid_content_body
+{
+    font-size: 10pt;
+}
+.htemp_grid_content_action
+{
+    display: block;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #000;
+}
+.htemp_grid_content_action:hover
+{
+    text-decoration: underline;
+}
+/*Style for Card Grid Ends*/
+
+/*Style For Large Image Background with Text (Left and Right) Begin*/
+.htemp_imgsec_container
+{
+    position: relative;
+}
+.htemp_imgsec_img
+{
+    width: 100%;
+    display: none;
+}
+.htemp_imgsec_content
+{
+    width: 100%;
+}
+.htemp_imgsec_title
+{
+    font-size: 12pt;
+    font-weight: 200;
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.htemp_imgsec_mobile_banner
+{
+    background-color: #CCC;
+}
+.htemp_imgsec_msufcu_mobile_banner
+{
+    background-color: #004f39;
+}
+.htemp_imgsec_oucu_mobile_banner
+{
+    background-color: #999;
+}
+.htemp_imgsec_body
+{
+    width: 90%;
+    margin: auto;
+    padding: 15px 0 25px;
+    font-size: 10pt;
+}
+.htemp_imgsec_action_btn
+{
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+.htemp_imgsec_action_banner
+{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.htemp_imgsec_action_banner a
+{
+    width: 90%;
+    margin: auto;
+    display: block;
+    color: #000;
+}
+.htemp_imgsec_body a
+{
+    color: #000;
+}
+/*Style For Large Image Background with Text (Left and Right) End*/
+
+/*Style for Basic Intro Section with Title, Text, and Img Begin*/
+.htemp_bintro_container
+{
+    width: 100%;
+}
+.htemp_bintro_img
+{
+    width: 25%;
+    max-width: 250px;
+    vertical-align: middle;
+    padding: 25px;
+    box-sizing: border-box;
+    display: none;
+}
+.htemp_bintro_img img
+{
+    width: 100%;
+}
+.htemp_bintro_content
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    vertical-align: middle;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.htemp_inline_display
+{
+    display: block;
+}
+.htemp_bintro_title
+{
+    font-weight: 400;
+    font-size: 16pt;
+    padding: 0 0 20px;
+    box-sizing: border-box;
+}
+.htemp_bintro_body
+{
+    font-size: 11pt;
+    font-weight: 200;
+    line-height: 28px;
+}
+.htemp_bintro_action
+{
+    margin: 20px 0 0;
+    font-size: 10pt;
+}
+/*Style for Basic Intro Section with Title, Text, and Img End*/
+.htemp_bintro_thirds_container
+{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 500px)
+{
+    .htemp_bintro_thirds_container
+    {
+        flex-direction: column;
+    }
+    div.htemp_bintro_thirds--right-third,
+    div.htemp_bintro_thirds--left-two-thirds
+    {
+        width: 100%;
+    }
+    .htemp_bintro_thirds--right-third .htemp_bintro_thirds_content
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+.htemp_bintro_thirds--full
+{
+    width: 100%;
+}
+
+.htemp_bintro_thirds--right-third
+{
+    width: 33%;
+}
+
+.htemp_bintro_thirds--right-third .htemp_bintro_thirds_body
+{
+    text-align: center;
+    padding: 15px;
+}
+.htemp_bintro_thirds--right-third .htemp_bintro_thirds_body img
+{
+    width: unset!important;
+    max-width: unset!important;
+}
+
+.htemp_bintro_thirds--left-two-thirds
+{
+    width: 67%;
+}
+.htemp_bintro_thirds_img
+{
+    width: 25%;
+    max-width: 250px;
+    vertical-align: middle;
+    padding: 25px;
+    box-sizing: border-box;
+    display: none;
+}
+.htemp_bintro_thirds_img img
+{
+    width: 100%;
+}
+.htemp_bintro_thirds_content
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    vertical-align: middle;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.htemp_bintro_thirds_title
+{
+    font-weight: 400;
+    font-size: 36px;
+    padding: 0 0 20px;
+    box-sizing: border-box;
+}
+.htemp_bintro_thirds_body
+{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.htemp_bintro_thirds_action
+{
+    margin: 20px 0 0;
+    font-size: 10pt;
+}
+
+/*Style for Image Wheel Section with Title, Text, and Imgs Begin*/
+.htemp_iw_content_container,
+.htemp_iw_img_container
+{
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.htemp_iw_title
+{
+    font-weight: 200;
+    margin: 0;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.htemp_iw_content
+{
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+.htemp_iw_img_container
+{
+    text-align: center;
+}
+.htemp_iw_arrow,
+.htemp_iw_img_holder_container
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+.htemp_iw_arrow
+{
+    cursor: pointer;
+    width: 10%;
+    max-width: 75px;
+    user-select: none;
+}
+.htemp_iw_arrow img
+{
+    width: 100%;
+}
+.htemp_iw_img_holder_container
+{
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+}
+.htemp_iw_img_holder
+{
+    width: 100%;
+}
+.htemp_iw_img_holder img
+{
+    width: 100%;
+}
+.htemp_iw_action_mobile
+{
+    text-align: center;
+}
+.hide_image
+{
+    display: none;
+}
+/*Style for Image Wheel Section with Title, Text, and Imgs End*/
+
+/*Form Styles Begin*/
+.htemp_form_main_container
+{
+    min-width: 300px;
+}
+.htemp_form_sec_container
+{
+    max-width: 700px;
+    margin: auto;
+    background-color: #efefef;
+}
+.htemp_form_container
+{
+    background-color: #efefef;
+    width: 100%;
+    padding: 20px 30px 50px;
+    box-sizing: border-box;
+    min-height: 275px;
+    text-align: left;
+}
+.htemp_form_title
+{
+    width: 100%;
+    background-color: #666;
+    color: #fff;
+    font-weight: 200;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: left;
+    font-size: 18pt;
+}
+.htemp_form_row
+{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+.htemp_form_label
+{
+    display: block;
+    padding: 5px 0;
+    box-sizing: border-box;
+    font-size: 12pt;
+}
+.htemp_cb_radio_label
+{
+    font-size: 12pt;
+}
+.htemp_form_row input,
+.htemp_form_row select
+{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14pt;
+}
+.htemp_form_row input[type="checkbox"],
+.htemp_form_row input[type="radio"]
+{
+    display: inline-block;
+    width: 100%;
+    max-width: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.htemp_form_row textarea
+{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14pt;
+    min-height: 150px;
+}
+.htemp_cr_input_container
+{
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+.htemp_captcha_container
+{
+    padding: 35px 15px;
+    box-sizing: border-box;
+}
+.htemp_submit_row
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.htemp_submit_btn
+{
+    border: none;
+    border-radius: 25px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    font-size: 14pt;
+    color: #fff;
+    min-width: 200px;
+}
+.required_field
+{
+    font-weight: 600;
+}
+.htemp_form_input_error
+{
+    font-style: italic;
+    color: #b30000;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+.htemp_input_error
+{
+    background-color: rgba(179, 0, 0, 0.4);
+}
+/******DATE PICKER STYLES*****/
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span
+{
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -15px;
+    width: 100%;
+    height: 100%;
+}
+.ui-datepicker-prev .ui-icon
+{
+    background-image: url(https://media.msufcu.org/publicsites/publicsite/icons/arrow_left_white.png);
+    background-size: 25px;
+}
+.ui-datepicker-next .ui-icon
+{
+    background-image: url(https://media.msufcu.org/publicsites/publicsite/icons/arrow_right_white.png);
+    background-size: 25px;
+}
+.ui-icon-circle-triangle-w,
+.ui-icon-circle-triangle-e
+{
+    background-position: -5px;
+}
+/*Form Styles End*/
+
+/*Style for Basic Disclosures Begins*/
+.htemp_bdiscl_container
+{
+    margin: auto;
+    padding: 10px 30px;
+    max-width: 900px;
+}
+
+.htemp_bdiscl_body
+{
+    font-size: 8pt;
+}
+/*Style for Basic Disclosures Ends*/
+
+/*Style for Professional Profile & Profile Submenu*/
+.htemp_psm_main_container
+{
+    display: none;
+}
+
+.htemp_psm_img
+{
+    border-radius: 50%;
+}
+
+.htemp_psm_link
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.htemp_prf_main_container
+{
+    margin: 10px;
+}
+
+.htemp_prf_sec_container
+{
+    margin: auto;
+    padding: 5px 5px 15px 5px;
+    background-color: #EFEFEF;
+    max-width: 900px;
+}
+
+.htemp_prf_header_container
+{
+    text-align: center;
+    font-size: 18pt;
+    margin: 10px 0px;
+}
+
+.htemp_prf_cards_container
+{
+    margin: auto;
+    padding: 5px;
+    max-width: 600px;
+}
+
+.htemp_prf_card_container
+{
+    margin-bottom: 10px;
+}
+
+.htemp_prf_card_title
+{
+    margin-bottom: 10px;
+    font-size: 16pt;
+}
+
+.htemp_prf_contact_main_container
+{
+    width: 100%;
+}
+
+.htemp_prf_contact_sec_container
+{
+    width: 300px;
+    margin: auto;
+}
+
+.htemp_prf_img
+{
+    width: 275px;
+}
+
+.htemp_prf_contact_info
+{
+    margin: 5px;
+}
+
+.htemp_prf_img
+{
+    text-align: center;
+}
+
+.htemp_prf_contact_name
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.htemp_button_as_link
+{
+    font-size: 10pt;
+    background:none!important;
+    color:inherit;
+    border:none; 
+    padding:0!important;
+    /*border is optional*/
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+}
+
+.htemp_prf_broker_image_container
+{
+    text-align: center;
+}
+
+.htemp_prf_broker_image_container img
+{
+    width: 180px;
+}
+
+.vcard_form
+{
+    text-align: center;
+}
+/*Style for PP & PSM Ends*/
+
+.htemp_form_header 
+{
+	font-size: 16pt;
+	font-weight: 400;
+	margin-top: 30px;
+}
+.htemp_form_paragraph 
+{
+	
+}
+.confirmation_checkbox
+{
+	width: 20px;
+}
+.confirmation_checkbox_label > input
+{
+	display: inline-block;
+	width: 20px;
+	vertical-align: top;
+	position: relative;
+	top: 6px;
+}
+.confirmation_checkbox_label > div
+{
+	display: inline-block;
+	width: 95%;
+	vertical-align: top;
+}
+
+.htemp_form_helper 
+{
+	font-size: 11pt;
+	font-style: italic;
+	width: 100%;
+	padding: 4px 0 10px;
+}
+
+/* Styles for Header Elements Begin */
+
+.htemp_header_container
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.htemp_header_content
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.htemp_header_image_container
+{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+
+.htemp_header_title_container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36pt;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.htemp_header_image
+{
+    width: 100%;
+}
+
+.htemp_header_sub_menu_container
+{
+    display: none;
+}
+
+.htemp_header_sub_menu_link:link, .htemp_header_sub_menu_link:visited
+{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Styles for Header Elements End */
+
+/* Styles for Horizontal Rule Begin */
+
+.htemp_hr
+{
+    width: 100%;
+    height: 1px;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    margin: 5px auto;
+}
+
+/* Styles for Horizontal Rule End */
+
+/*Styles for Site Map Begin*/
+.sm_main_container
+{
+    min-width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.sm_sec_container
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.sm_main_container a
+{
+    text-decoration: none;
+}
+.sm_title_400
+{
+    font-weight: 400;
+}
+.sm_header_title
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18pt;
+    margin: 0 0 25px;
+}
+.sm_title_underline
+{
+    text-decoration: underline;
+}
+.sm_group_container
+{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+.sm_subgroup_container
+{
+    margin: 5px 0;
+}
+.sm_top_title
+{
+    font-weight: 400;
+    color: #000;
+    font-size: 18pt;
+    margin: 0 0 20px;
+}
+.sm_secondary_title h3
+{
+    font-weight: 600;
+    color: #666;
+    font-size: 13pt;
+    margin: 10px 0;
+}
+.sm_tertiary_title h4
+{
+    color: #999;
+    font-size: 11pt;
+    margin: 0;
+}
+.sm_group_indent
+{
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+/*Styles for Site Map End*/

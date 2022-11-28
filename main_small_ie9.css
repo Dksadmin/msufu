@@ -1,0 +1,26 @@
+.hp_ns_image_container
+{
+	height: 175px;
+}
+.hp_product_arrow
+{
+	top: 75px;
+}
+.hp_pm_computerline_login
+{
+	width: 230px;
+}
+.hprn_main_container
+{
+	min-width: auto;
+	width: 90%;
+	padding: 2.5% 5%;
+}
+.cl_login_form input[type=text], .cl_login_form input[type=password]
+{
+	width: 95%;
+}
+.hp_promo_arrow
+{
+    border: none;
+}

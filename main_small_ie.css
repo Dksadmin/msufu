@@ -1,0 +1,1180 @@
+body 
+{
+	font-family: Arial !important;
+	margin: 0;
+}
+
+/***** PUBLIC SITE HEADER CSS *****/
+	#ps_main_page_contianer, #page
+	{
+		min-height: 775px;
+	}
+	.ps_menu_parent_extension
+	{
+		position: absolute;
+		background-color: #004f39;
+		width: 100%;
+		height: 50px;
+	}
+	#ps_header_main_container
+	{
+		font-family: 'Open Sans' !important;
+		font-size: 12pt;
+		position: absolute;
+		top:0;
+		display: block;
+		width: 100%;
+		background:transparent;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCffffff,endColorstr=#CCffffff); 
+		zoom: 1;
+		z-index: 300;
+	}
+	#ps_header_secondary_container
+	{
+		position: relative;
+		display: block;
+		max-width: 1200px;
+		min-width: 900px;
+		height: 100px;
+		margin: 0 auto;
+		z-index: -10;
+	}
+	#psh_logo_container
+	{
+		position: absolute;
+		top: 5px;
+		left: 0;
+	}
+	.psh_brand_logo
+	{
+		width: 210px;
+	}	
+	#psh_secondary_nav_container
+	{
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.psh_secondary_nav
+	{
+		margin: 0;
+		list-style-type: none;
+	}
+	.psh_secondary_nav_item
+	{
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom:1;
+		*display: inline;
+		color: #004f39;
+		text-align: right;
+		font-size: 10pt;
+		font-weight: bold;
+	}
+	.psh_secondary_nav_item > a
+	{
+		display:block;
+		color: #004f39;
+		text-align: right;
+		text-decoration: none;
+		padding: 5px 0px 5px 35px;
+		cursor: pointer;
+	}
+	.psh_secondary_nav_item_selected > a
+	{
+		color: #333333;
+		/*background-color: #004f39;*/
+	}
+	.psh_chat_active_container
+	{
+		position: absolute;
+		top: 2px;
+		right: -25px;
+	}
+	.psh_chat_active
+	{
+		width: 20px;
+	}
+	#psh_main_nav_container
+	{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	.psh_main_nav
+	{
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom:1;
+		*display: inline;
+		margin: 0;
+		list-style-type: none;
+		vertical-align: middle;
+	}
+	.psh_main_nav_item
+	{
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom:1;
+		*display: inline;
+		position: relative;
+		color: #004f39;
+		font-size: 13pt;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.psh_main_nav_item > a
+	{
+		display: block;
+		color: #004f39;
+		text-decoration: none;
+		padding: 5px 17.5px;
+		cursor: pointer;
+	}
+	.ps_menu_parent_item_selected > a
+	{
+		color: #ffffff;
+		background-color: #004f39;
+	}
+	.psh_main_nav_sub_container
+	{
+		display: none;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		width: 100%;
+		background-color: #004f39;
+		z-index: 300;
+	}
+	.psh_main_nav_sub
+	{
+		display: table;
+		margin: 0 auto;
+		padding: 20px 5px;
+		max-width: 1200px;
+		min-width: 900px;
+		list-style-type: none; 
+	}
+	.psh_main_nav_sub > li
+	{
+		display: table-cell;
+		text-align: center;
+	}
+	.psh_main_nav_sub > li > a
+	{
+		display: block;
+		color: #ffffff;
+		padding: 5px 20px 5px 5px;
+		font-size: 11pt;
+		font-weight: bold;
+		text-align: left;
+		text-transform: uppercase;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.ps_special_open_an_account > a
+	{
+		color: #ffffff;
+		background-color: #004f39;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		padding: 7px 17.5px 5px;
+	}
+	.ps_special_open_an_account > a:hover
+	{
+		color: #004f39;
+		background-color: #ffffff;						
+	}
+	.ps_special_live_chat
+	{
+		font-weight: bold; 
+		text-transform: uppercase;
+	}
+	#ps_header_search_icon
+	{
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom:1;
+		*display: inline;
+		width: 40px;
+		height: 40px;
+		margin-left: 20px;
+		vertical-align: middle;
+		cursor: pointer;
+		background-image: url('https://media.msufcu.org/icons/msufcu/search.png');
+		background-repeat: no-repeat;
+		background-position:center center; 
+		background-size: 20px;
+	}
+	#ps_header_search_icon:hover
+	{
+		background-image: url('https://media.msufcu.org/icons/search_white.png');
+		background-color: #004f39;
+	}
+	#ps_header_search_icon > img
+	{
+		width: 20px;
+	}
+	#ps_header_main_search_container
+	{
+		display: none;
+		position: absolute;
+		top: 100px;
+		left: 0;
+		width: 100%;
+		background-color: #004f39;
+		z-index: 300;
+	}
+	.psh_secondary_search_container
+	{
+		display: block;
+		margin: 40px auto;
+		max-width: 1200px;
+		min-width: 900px;
+	}
+	.psh_popular_questions 
+	{
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom:1;
+		*display: inline;
+		width: 49%;
+	}
+	.psh_search_container
+	{
+		display: -moz-inline-stack;
+		display: inline-block;
+		zoom:1;
+		*display: inline;
+		width: 49%;
+	}
+	.psh_search_container > form
+	{
+		text-align: right;
+		margin: 0;
+	}
+	.psh_search_label
+	{
+
+	}
+	.psh_search_input
+	{
+		font-size: 12pt;
+		width: 80%;
+		margin: 0 0 0 auto;
+		border: none;
+		border-radius: 5px;
+		padding: 5px 5px 5px 35px;
+		background-image: url('https://media.msufcu.org/icons/msufcu/search.png');
+		background-repeat: no-repeat;
+		background-position: 5px center; 
+		background-size: 20px;
+	}				
+/***** END PUBLIC SITE HEADER CSS *****/	
+				
+/***** PUBLIC SITE FOOTER CSS *****/
+	#ps_footer_secondary_container
+	{
+		position: relative;
+		display: block;
+		max-width: 1200px;
+		min-width: 700px;
+		margin: 0 auto;
+	}
+	#psf_main_nav_contianer
+	{
+		padding: 15px 0 15px;
+	}
+	.psf_main_nav
+	{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+		list-style-type: none;
+		text-align: center;
+	}
+	.psf_main_nav_item
+	{
+		display: inline-block;
+		font-weight: bold;
+	}
+	.psf_main_nav_item > a
+	{
+		color: #000000;
+		text-decoration: none;
+		font-size: 10pt;
+		cursor: pointer;
+	}
+	#psf_diclaimer_container
+	{
+		display: block;
+		width: 900px;
+		margin: 0 auto;
+		padding-bottom: 71px;
+		color: #000000;
+		font-size: 9pt;
+		text-align: center;
+	}
+	#psf_diclaimer_container > a
+	{
+		font-size: 9pt;
+		color: #000000;
+	}
+	#psf_image_containers
+	{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.psf_ncua_img, .psf_ehl_img
+	{
+		display: inline-block;
+		margin: 10px;
+	}
+	.psf_ncua_img img
+	{
+		width: 100px;
+	}
+	.psf_ehl_img img
+	{
+		width: 80px;
+	}
+        #ps_footer_main_container
+{
+    max-height: 150px;
+}
+#ps_footer_secondary_container
+{
+    padding: 25px 0 0;
+}
+#psf_image_containers,
+#psf_main_nav_contianer,
+#psf_diclaimer_container
+{
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#psf_main_nav_contianer
+{
+    padding: 0 0 0 25px;
+    width: 36%;
+    box-sizing: border-box;
+    max-width: 360px;
+}
+.psf_main_nav
+{
+    padding-bottom: 10px;
+    margin: 0;
+}
+#psf_image_containers
+{
+    text-align: center;
+    position: inherit;
+    width: 17%;
+}
+#psf_image_containers .psf_ehl_img,
+#psf_image_containers .psf_ncua_img
+{
+    margin: 0;
+}
+#psf_diclaimer_container
+{
+    text-align: left;
+    width: 40%;
+    max-width: 540px;
+}
+#psf_image_containers_2
+{
+    display: none;
+}
+.copyright_container
+{
+    max-width: 280px;
+    margin: 0;
+}
+.facebook_small
+{
+    display: none;
+}
+.facebook_large
+{
+    display: block;
+}
+.information_column
+{
+    display: inline-block;
+}
+.social_media_container, .information_container 
+{
+    max-width: 1200px;
+}    
+.social_media_icons 
+{
+    width: 25%;
+    display: inline-block;
+}
+.social_media_like 
+{
+    width: 50%;
+    display: inline-block;
+    padding-top: 0;
+}
+.column_1 
+{
+    width: 22.5%;
+}
+.psf_main_nav, .psf_main_nav_item:last-child 
+{
+    text-align: left;
+}
+.psf_main_nav_item 
+{
+    width: initial;
+}
+/***** END PUBLIC SITE FOOTER CSS *****/
+
+/**** HOMPAGE PROMOTIONAL CARDS CSS ****/
+	.hp_promotional_container
+	{
+		postition: relative;
+		display: block;
+		width: 100%;
+		color: #333333;
+		font-size: 12pt;
+		text-align: left;
+		z-index: -10;
+	}
+	.hp_promo_main_container
+	{
+		display: block;
+		width: 100%;
+		max-height: 750px;
+		position: relative;
+		overflow: hidden;
+	}
+	.hp_pm_image_container
+	{
+		display: block;
+		width: 100%;
+	}
+	.hp_pm_computerline_login_main
+	{
+		position: relative;
+		top: 0;
+		max-width: 1200px;
+		min-width: 900px;
+		margin: 0 auto;
+		z-index: 200;
+	}
+	.hp_pm_computerline_login
+	{
+		position: absolute;
+		top: 130px;
+		right: 60px;
+	}
+
+	.hprn_main_container
+	{
+		width: auto;
+		background:transparent;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCffffff,endColorstr=#CCffffff); 
+		zoom: 1;
+		padding: 10px 10px;
+		font-size: 9pt;
+	}
+	.hprn_rn_title, .hprn_sc_title
+	{
+		display: inline-block;
+		width: 65%;
+		font-weight: bold;
+		text-align: left;
+	}
+	.hprn_routing_number, .hprn_swift_code
+	{
+		display: inline-block;
+		width: 34%;
+		font-weight: bold;
+		text-align: right;
+	}
+
+	.hp_rates_main_container
+	{
+		display: block;
+		width: 230px;
+		background:transparent;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCffffff,endColorstr=#CCffffff); 
+		zoom: 1;
+		padding: 4px 10px 6px;
+	}
+	.hp_rates_header
+	{
+		color: #ffffff;
+		background-color: #565656;
+		font-size: 9pt;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 5px;
+	}
+	.hp_rates_mobile_container
+	{
+		display: none;
+	}
+	.hp_pro_main_image
+	{
+		position: relative;
+		width: 100%;
+		z-index: -10;
+	}
+	.hp_pro_main_image_mobile
+	{
+		display: none;
+	}
+	.hp_pm_title_container
+	{
+		display: block;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		background:transparent;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#990000000); 
+		zoom: 1;
+	}
+	.hp_pm_title
+	{
+		display: block;
+		width: 85%;
+		margin: 20px auto 10px;
+		color: #ffffff;
+		font-size: 29pt;
+		font-weight: lighter;
+		text-align: center;
+	}
+	.hp_pm_action_container
+	{
+		position: relative;
+		display: block;
+		width: 85%;
+		margin: 0 auto 20px;
+		text-align: center;
+	}
+	.hp_pm_action_tag_group
+	{
+		position: relative;
+		display: inline-block;
+		width: auto;
+		margin: 10px auto;
+		padding: 10px 60px;
+		border: 1px solid #ffffff;
+		color: #ffffff;
+		font-size: 12pt;
+		font-weight: bold;
+		text-align: center;
+	}
+	.hp_pm_action_tag
+	{
+		display: block;
+		width: 100%;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.hp_pm_action_tag_group:hover, .hp_promotion_hover
+	{
+		color: #ffffff;
+		background-color: #004f39;
+		/*background-image: url('https://media.msufcu.org/publicsites/publicsite/icons/arrow_right_gray.png');*/
+	}
+	.hp_pm_bottom_border
+	{
+		display: block;
+		height: 40px;
+		background-color: #004f39;
+	}
+
+
+	.hp_promos_container
+	{
+		position: relative;
+		height: auto;
+		margin: 4px 0;
+	}
+	.hp_promos_left
+	{
+		position: absolute;
+		top: 0; 
+		left: 0;
+		width: 50px;
+		height: 97%;
+		margin: 0.2% 0;
+		background:transparent;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99004f39,endColorstr=#99004f39); 
+		zoom: 1;
+		z-index: 150;
+	}
+	.hp_promos_left > a
+	{
+		display: block;
+		width: 100%;
+		height: 100%;
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.hp_promos_right
+	{
+		position: absolute;
+		top: 0; 
+		right: 0;
+		width: 50px;
+		height: 97%;
+		margin: 0.2% 0;
+		color: #ffffff;
+		background:transparent;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99004f39,endColorstr=#99004f39); 
+		zoom: 1;
+		z-index: 150;
+	}
+	.hp_promos_right > a 
+	{
+		display: block;
+		width: 100%;
+		height: 100%;
+		color: #ffffff;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.hp_promo_arrow
+	{
+		position: relative;
+		top: 38%;
+		width: 35px;
+		border: none;
+	}
+	.hp_promos_group
+	{
+		position: relative;
+		z-index: 100;
+	}
+	.hp_promo_group
+	{
+		display: inline-block;
+		width: 24.8%;
+		vertical-align: top;
+		position: relative;
+		margin: 0.2%;
+	}
+	.hp_promo_group_leftmost
+	{
+		width: 12%;
+		height: auto;
+		margin-left: 0;
+		overflow: hidden;
+	}
+	.hp_promo_group_leftmost img
+	{
+		position: relative;
+		top: 0; 
+		right: 100%;
+		width: 207%;
+	}
+	.hp_promo_group_leftmost a
+	{
+		pointer-events: none;
+		cursor: default;
+	}
+	.hp_promo_group_leftmost .hp_promo_title
+	{
+		width: 207%;
+		left: -118%;
+		/*display: none;*/
+	}
+	.hp_promo_group_rightmost
+	{
+		width: 12%;
+		height: auto;
+		margin-right: 0;
+		overflow: hidden;
+	}
+	.hp_promo_group_rightmost .hp_promo_title
+	{
+		width: 207%;
+		left: 0;
+		/*display: none;*/
+	}
+	.hp_promo_group_rightmost img
+	{
+		position: relative;
+		top: 0; 
+		left: 0;
+		width: 207%;
+	}
+	.hp_promo_group_rightmost a
+	{
+		pointer-events: none;
+		cursor: default;
+	}
+	.hp_pro_image
+	{
+		border: none;
+		width: 100%;
+	}
+	.hp_promo_title_container
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background:transparent;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#990000000); 
+		zoom: 1;
+	}
+	.hp_promo_title
+	{
+		position: relative;
+		top: 35%;
+		color: #ffffff;
+		font-size: 12pt;
+		font-weight: bold;
+		padding: 0 60px 10px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	@media only screen and (max-width: 900px)
+	{
+		.hp_pro_main_image
+		{
+			display: none;
+		}
+		.hp_pro_main_image_mobile
+		{
+			display: block;
+			width: 100%;
+		}
+	}
+/*END HOMPAGE PROMOTIONAL CARDS CSS */
+
+/*HOMPAGE PRODUCT CARDS CSS */
+	.hp_prod_main_contianer
+	{
+		position: relative;
+		height: auto;
+		margin-top: 0;
+		background-color: #eaeee2;
+	}
+	.hp_prod_secondary_contianer
+	{
+		display: block;
+		max-width: 1200px;
+		min-width: 900px;
+		margin: 0 auto;
+		padding: 120px 0;
+	}
+	.hp_prod_move_left
+	{
+		position: relative;
+		display: inline-block;
+		width: 5%;
+		height: 45%;
+		vertical-align: top;
+		z-index: 150;
+	}
+	.hp_prod_move_left > a
+	{
+		display: block;
+		color: #ffffff;
+		height: 100%;
+		text-decoration: none;
+	}
+	.hp_prod_move_right 
+	{
+		position: relative;
+		display: inline-block;
+		width: 5%;
+		height: 45%;
+		vertical-align: top;
+		text-align: right;
+		z-index: 150;
+	}
+	.hp_prod_move_right > a
+	{
+		display: block;
+		height: 100%;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	.hp_product_arrow
+	{
+		position: relative;
+		top: 100px;
+		width: 50px;
+		border: none;
+	}
+	.hp_prod_groups
+	{
+		position: relative;
+		display: inline-block;
+		width: 90%;
+		height: 45%;
+		margin: 0 0;
+		vertical-align: top;
+		z-index: 100;
+	}
+	.hp_prod_group
+	{
+		display: inline-block;
+		width: 31%;
+		height: auto;
+		margin: 20px 1%;
+		text-align: center;
+		vertical-align: top;
+	}
+	.hp_prod_action_tag
+	{
+		text-decoration: none;
+		color: #333333;
+		cursor: pointer;
+	}
+	.hp_prod_image_icon
+	{
+		width: 100px;
+		border: none;
+	}
+	.hp_prod_title
+	{
+		width: 60%;
+		height: 12%;
+		margin: 20px auto;
+		color: #000000;
+		font-size: 14pt;
+		font-weight: bold;
+	}
+	.hp_prod_body 
+	{
+		width: 60%;
+		height: 40%;
+		margin: 0 auto;
+		color: #000000;
+		font-size: 12pt;
+		font-weight: normal;
+	}
+	.hp_prod_aslowas
+	{
+		width: 60%;
+		height: 3%;
+		margin: 0 auto;
+		font-size: 12pt;
+		font-weight: normal;
+	}
+	.hp_prod_rate
+	{
+		width: 60%;
+		height: 15%;
+		margin: 0 auto;
+		color: #434343;
+		font-size: 36pt;
+		font-weight: normal;
+	}
+	.hp_prod_action_label
+	{
+		width: 70%;
+		margin: 10px auto;
+		color: #426e5f;
+		font-size: 14pt;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+/*END HOMPAGE PRODUCT CARDS CSS */
+
+/*HOMPAGE NEWS STORY CARDS CSS */
+	.hp_ns_main_container
+	{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		text-align: left;
+	}
+	.hp_ns_secondary_container
+	{
+		display: block;
+		max-width: 1200px;
+		min-width: 900px;
+		margin: 0 auto;
+		padding: 40px 0;
+	}
+	.hp_ns_header_container
+	{
+		margin: 20px 0 60px;
+	}
+	.hp_ns_header_title
+	{
+		display: inline-block;
+		width: 70%;
+		color: #004f39;
+		font-size: 28pt;
+		font-weight: normal;
+		vertical-align: middle;
+	}
+	.hp_ns_header_social_media
+	{
+		display: inline-block;
+		width: 30%;
+		text-align: right;
+		vertical-align: middle;
+	}
+	.hp_ns_header_social_media > a 
+	{
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.hp_ns_header_social_media > a > img
+	{
+		width: 25px;
+		margin: 2px;
+		border: none;
+	}
+	.hp_ns_story_container
+	{
+		position: relative;
+		display: inline-block;
+		width: 22.68%;
+		margin: 0 1.535% 40px;
+		vertical-align: top;
+	}
+	.hp_ns_story_container_leftmost
+	{
+		margin-left: 0;
+	}
+	.hp_ns_story_container_rightmost
+	{
+		margin-right: 0;
+	}
+	.hp_ns_action_tag
+	{
+		text-decoration: none;
+		color: #333333;
+		cursor: pointer;
+	}
+	.hp_ns_image_container
+	{
+		display: block;
+		width: 100%;
+		height: 175px;
+		overflow: hidden;
+	}
+	.hp_ns_image
+	{
+		position:relative;
+		left: -20%;
+		width: 150%;
+		border: none;
+	}
+	.hp_ns_title
+	{
+		display: block;
+		width: 90%;
+		margin: 5px auto;
+		text-align: center;
+		color: #666666;
+		font-size: 13pt;
+		font-weight: bold;
+	}
+	.hp_ns_show_more
+	{
+		text-align: right;
+		padding: 0;
+		color: #999999;
+		font-size: 13pt;
+		font-weight: bold;
+	}
+
+/*END HOMPAGE NEWS STORY CARDS CSS */
+
+/*HOMEPAGE HIGHLIGHTED LINKS CSS */
+	.hp_highlighted_links_container
+	{
+		display: block;
+		width: 100%;
+		background-color: #eaeee2; 
+		color: #004f39;
+		font-size: 12pt;
+		font-weight: bold;
+		text-align: left;
+	}
+	.hp_highlighted_links_secondary_container
+	{
+		display: block;
+		max-width: 1200px;
+		min-width: 900px;
+		margin: 0 auto;
+		padding: 80px 0;
+	}
+	.hp_hl_inner_container
+	{
+		display: block;
+	}
+	.hp_hl_container
+	{
+		display: inline-block;
+		width: 30%;
+		margin: 20px 1%;
+		vertical-align: middle;
+	}
+	.hp_hl_action_tag
+	{
+		display: block;
+		color: #004f39;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.hp_hl_image_container
+	{
+		display: inline-block;
+		width: 70px;
+		padding: 2px;
+		vertical-align: middle;
+	}
+	.hp_hl_image
+	{
+		width: 70px;
+		border: none;
+	}
+	.hp_hl_title
+	{
+		display: inline-block;
+		width: 69%;
+		padding: 5px;
+		vertical-align: middle;
+		font-weight: bold;
+	}
+/* END HOMEPAGE HIGHLIGHTED LINKS CSS */
+
+
+/***** COMPUTERLINE LOGIN BOX *****/
+	.cl_login_container
+	{
+		display: block;
+	}
+	.cl_login_secondary_header_container
+	{
+		width: auto;
+		margin: 0;
+	}
+	.cl_login_header_container
+	{
+		position: relative;
+		color: #ffffff;
+		background-color: #004f39;
+		padding: 0 10px 3px;
+	}
+	.cl_login_header_box
+	{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.cl_login_secure_icon_container
+	{
+		position: absolute;
+		top: 7px;
+		right: 10px ;
+		display: inline-block;
+		width: 10%;
+		vertical-align: middle;
+		text-align: right;
+	}
+	.cl_login_secure_icon
+	{
+		width: 20px;
+	}
+	.cl_login_header 
+	{
+		font-size: 18pt;
+		font-weight: normal; 
+	}
+	.cl_login_secondary_header
+	{
+		position: relative;
+		top: -5px;
+		font-size: 9pt;
+		font-weight: normal;
+	}
+	.cl_login_form_container
+	{
+		width: auto;
+		background:transparent;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCffffff,endColorstr=#CCffffff); 
+		zoom: 1;
+		padding: 2px 10px;
+	}
+	.cl_login_form
+	{
+		margin: 0;
+		padding: 0;
+		width: 100%; 
+	}
+	.cl_login_form input[type=text], .cl_login_form input[type=password]
+	{
+		display:  block;
+		width: 95%;
+		margin: 10px auto;
+		font-size: 11pt;
+		font-weight: normal;
+		padding: 5px 5px;
+		border: none;
+	}
+	.cl_login_submit
+	{
+		display:  block;
+		width: 100%;
+		margin: 5px auto 0;
+		padding: 4px 5px;
+		color: #ffffff;
+		background-color: #565656;
+		font-family: 'Open Sans';
+		font-size: 12pt;
+		font-weight: bold;
+		border: none;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	.cl_login_forgots_container
+	{
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.cl_login_forgot_username, .cl_login_forgot_password
+	{
+		display: inline-block;
+		width: 50%;
+		margin: 5px 0 0;
+		color: #004f39;
+		font-size: 8pt;
+		font-weight: bold;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.cl_login_forgot_password
+	{
+		text-align: right;
+	}
+	.cl_login_message_container
+	{
+		display: block;
+		width: 90%;
+		margin: 5px auto;
+	}
+	.cl_login_error_1
+	{
+		display: block;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+	.cl_login_error_2
+	{
+		display: block;
+		font-size: 10pt;
+		font-weight: normal;
+	}

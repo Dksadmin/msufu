@@ -1,0 +1,285 @@
+/*
+Universal Design System Small CSS
+*/
+/* CALL TO ACTION BUTTON */
+.uds_button_cta
+{
+    height: 37px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 0px;
+    margin: 20px 0px;
+    font-size: 18px;
+    display: inline-block;
+    min-width: 280px;
+    max-width: 280px;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 5px 0px;
+}
+/*.uds_button_cta_input
+{
+    height: 37px;
+    padding: 5px 43px;
+}*/
+/* PRIMARY ACTION BUTTON */
+/* Default style is for MSUFCU Brand */
+.uds_button_cta_primary
+{
+    border: 1px solid #004E39;
+    background: #004E39;
+    color: #FFFFFF;
+}
+.uds_button_cta_primary:hover
+{
+    border: 1px solid #00291D;
+    background: #00291D;
+    color: #FFFFFF;
+}
+.uds_button_cta_primary_dark
+{
+    border: 1px solid #004E39;
+    background: #FFFFFF;
+    color: #004E39;
+}
+.uds_button_cta_primary_dark:hover
+{
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+    color: #004F39;
+}
+/* OUCU Style */
+.uds_button_cta_primary_ou
+{
+    border: 1px solid #7F6B39;
+    background: #7F6B39;
+    color: #FFFFFF;
+}
+.uds_button_cta_primary_ou:hover
+{
+    border: 1px solid #63532C;
+    background: #63532C;
+    color: #FFFFFF;
+}
+.uds_button_cta_primary_dark_ou
+{
+    border: 1px solid #7F6B39;
+    background: #FFFFFF;
+    color: #7F6B39;
+}
+.uds_button_cta_primary_dark_ou:hover
+{
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+    color: #7F6B39;
+}
+/* SECONDARY ACTION BUTTON */
+/* Default styles are MSUFCU */
+.uds_button_cta_secondary
+{
+    border: 1px solid #517F72;
+    background: #517F72;
+    color: #FFFFFF;
+}
+.uds_button_cta_secondary:hover
+{
+    border: 1px solid #487065;
+    background: #487065;
+    color: #FFFFFF;
+}
+.uds_button_cta_secondary_dark
+{
+    border: 1px solid #517F72;
+    background: #517F72;
+    color: #FFFFFF;
+}
+.uds_button_cta_secondary_dark:hover
+{
+    border: 1px solid #487065;
+    background: #487065;
+    color: #FFFFFF;
+}
+/* OUCU Styles */
+.uds_button_cta_secondary_ou
+{
+    border: 1px solid #D3C39C;
+    background: #D3C39C;
+    color: #000000;
+}
+.uds_button_cta_secondary_ou:hover
+{
+    border: 1px solid #C6B280;
+    background: #C6B280;
+    color: #FFFFFF;
+}
+.uds_button_cta_secondary_dark_ou
+{
+    border: 1px solid #D3C39C;
+    background: #D3C39C;
+    color: #000000;
+}
+.uds_button_cta_secondary_dark_ou:hover
+{
+    border: 1px solid #C6B280;
+    background: #C6B280;
+    color: #000000;
+}
+/* TERTIARY ACTION BUTTON */
+/* Default styles for MSUFCU */
+.uds_button_cta_tertiary
+{
+    border: 1px solid #517F72;
+    background: #FFFFFF;
+    color: #517F72;
+}
+.uds_button_cta_tertiary:hover
+{
+    border: 1px solid #004F39;
+    background: #FFFFFF;
+    color: #004F39;
+    font-weight: 200;
+}
+.uds_button_cta_tertiary_dark
+{
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+}
+.uds_button_cta_tertiary_dark:hover
+{
+    font-weight: 200;
+}
+/* OUCU Styles */
+.uds_button_cta_tertiary_ou
+{
+    border: 1px solid #7F63B9;
+    background: #FFFFFF;
+    color: #7F63B9;
+}
+.uds_button_cta_tertiary_ou:hover
+{
+    border: 1px solid #7F63B9;
+    background: #FFFFFF;
+    color: #7F63B9;
+    font-weight: 800;
+}
+.uds_button_cta_tertiary_dark_ou
+{
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+}
+.uds_button_cta_tertiary_dark_ou:hover
+{
+    font-weight: 800;
+}
+/* DISABLED BUTTON */
+/* Default Styles for MSUFCU */
+.uds_button_cta_disabled
+{
+    cursor: default;
+    border: 1px solid #767676;
+    background: #767676;
+    color: #FFFFFF;
+}
+.uds_button_cta_disabled:hover
+{
+    cursor: default;
+    border: 1px solid #767676;
+    background: #767676;
+    color: #FFFFFF;
+}
+.uds_button_cta_disabled_dark
+{
+    cursor: default;
+    border: 1px solid #767676;
+    background: #767676;
+    color: #FFFFFF;
+}
+.uds_button_cta_disabled_dark:hover
+{
+    cursor: default;
+    border: 1px solid #767676;
+    background: #767676;
+    color: #FFFFFF;
+}
+/* OUCU Styles */
+.uds_button_cta_disabled_ou
+{
+    cursor: default;
+    border: 1px solid #767676;
+    background: #767676;
+    color: #FFFFFF;
+}
+.uds_button_cta_disabled_ou:hover
+{
+    cursor: default;
+    border: 1px solid #767676;
+    background: #767676;
+    color: #FFFFFF;
+}
+.uds_button_cta_disabled_dark_ou
+{
+    cursor: default;
+    border: 1px solid #767676;
+    background: #767676;
+    color: #FFFFFF;
+}
+.uds_button_cta_disabled_dark_ou:hover
+{
+    cursor: default;
+    border: 1px solid #767676;
+    background: #767676;
+    color: #FFFFFF;
+}
+/* NEGATIVE ACTION BUTTON */
+/* Default styles for MSUFCU */
+.uds_button_cta_negative
+{
+    border: 1px solid #D62C1A;
+    background: #FFFFFF;
+    color: #D62C1A;
+}
+.uds_button_cta_negative:hover
+{
+    border: 1px solid #D62C1A;
+    background: #D62C1A;
+    color: #FFFFFF;
+}
+.uds_button_cta_negative_dark
+{
+    border: 1px solid #D62C1A;
+    background: #FFFFFF;
+    color: #D62C1A;
+}
+.uds_button_cta_negative_dark:hover
+{
+    border: 1px solid #D62C1A;
+    background: #D62C1A;
+    color: #FFFFFF;
+}
+/* OUCU Styles */
+.uds_button_cta_negative_ou
+{
+    border: 1px solid #D62C1A;
+    background: #FFFFFF;
+    color: #D62C1A;
+}
+.uds_button_cta_negative_ou:hover
+{
+    border: 1px solid #D62C1A;
+    background: #D62C1A;
+    color: #FFFFFF;
+}
+.uds_button_cta_negative_dark_ou
+{
+    border: 1px solid #D62C1A;
+    background: #FFFFFF;
+    color: #D62C1A;
+}
+.uds_button_cta_negative_dark_ou:hover
+{
+    border: 1px solid #D62C1A;
+    background: #D62C1A;
+    color: #FFFFFF;
+}

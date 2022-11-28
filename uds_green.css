@@ -1,0 +1,73 @@
+/**UDS Styles for the Green Theme**/
+
+
+/***********************************************
+*********UDS Buttons Styles*********************
+************************************************/
+
+.uds_button_cta_primary
+{
+	border: 1px solid #004E39;
+    background: #004E39;
+    color: #FFFFFF;
+}
+.uds_button_cta_primary:hover
+{
+	border: 1px solid #00291D;
+    background: #00291D;
+    color: #FFFFFF;
+}
+.uds_button_cta_primary_dark
+{
+	border: 1px solid #004E39;
+    background: #FFFFFF;
+    color: #004E39;
+}
+.uds_button_cta_primary_dark:hover
+{
+	border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+    color: #004F39;
+}
+.uds_button_cta_secondary
+{
+	border: 1px solid #517F72;
+    background: #517F72;
+    color: #FFFFFF;
+}
+.uds_button_cta_secondary:hover
+{
+	border: 1px solid #487065;
+    background: #487065;
+    color: #FFFFFF;
+}
+.uds_button_cta_secondary_dark
+{
+	border: 1px solid #517F72;
+    background: #517F72;
+    color: #FFFFFF;
+}
+.uds_button_cta_secondary_dark:hover
+{
+	border: 1px solid #487065;
+    background: #487065;
+    color: #FFFFFF;
+}
+.uds_button_cta_tertiary
+{
+    border: 1px solid #517F72;
+    background: #FFFFFF;
+    color: #517F72;
+}
+.uds_button_cta_tertiary:hover
+{
+    border: 1px solid #517F72;
+    background: #FFFFFF;
+    color: #517F72;
+}
+.uds_button_cta_tertiary_dark
+{
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+}

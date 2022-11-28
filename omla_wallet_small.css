@@ -1,0 +1,233 @@
+/*
+Styles specifically for the Wallet Slider on the Public Site
+*/
+.omla_wallet_icon
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+.omla_wallet_count
+{
+    display: block;
+    position: absolute;
+    top: 15px;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+.omla_wallet_slider
+{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -550px;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    background-color: #efefef;
+    z-index: 1000;
+    box-shadow: -8px 0px 20px -10px #666;
+    transition: 1s;
+    overflow-y: scroll;
+}
+.omla_wallet_slider::-webkit-scrollbar 
+{
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+.omla_close_icon_container
+{
+    padding: 20px 10px;
+    text-align: right;
+}
+.omla_slider_title
+{
+    font-weight: 400;
+}
+.omla_wallet_close
+{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18pt;
+    position: relative;
+}
+.omla_wallet_close_x
+{
+    position: absolute;
+    top: -5.5px;
+    left: 5.5px;
+}
+.omla_slider_wallet_main
+{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.omla_slider_btn_container
+{
+    text-align: center;
+}
+.omla_wallet_btn_main
+{
+    text-decoration: none;
+}
+.omla_wallet_item
+{
+    margin-bottom: 20px;
+}
+.omla_product_detail
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.omla_product_icon_wallet
+{
+    width: 25px;
+    height: 25px;
+}
+.omla_product_icon_wallet img
+{
+    width: 100%;
+}
+.omla_product_title_wallet
+{
+    width: calc(75% - 25px);
+    font-size: 12pt;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.omla_product_title_wallet a
+{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.omla_product_title_wallet a:hover
+{
+    text-decoration: underline;
+}
+.omla_product_remove_wallet
+{
+    width: calc(27% - 25px);
+    font-size: 10pt;
+    vertical-align: middle;
+}
+.omla_product_remove_wallet:hover
+{
+    cursor: pointer;
+}
+.omla_product_remove_wallet:hover .omla_remove_wallet
+{
+    text-decoration: underline;
+}
+.omla_remove_wallet
+{
+    color: #b30000;
+}
+.omla_remove_x
+{
+    vertical-align: top;
+    font-size: 10pt;
+    color: #b30000;
+}
+.omla_wallet_interest_title
+{
+    font-size: 14pt;
+    font-weight: 200;
+}
+.omla_add_to_wallet
+{
+    display: block;
+    cursor: pointer;
+}
+/**You May Be Interested Section**/
+.omla_wallet_int_products
+{
+    text-align: center;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+.omla_wallet_int_container
+{
+    width: calc(50% - 20px);
+    max-width: 175px;
+    margin: 10px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px 5px;
+    box-sizing: border-box;
+    min-height: 230px;
+    vertical-align: top;
+    position: relative;
+}
+.omla_wallet_int_img
+{
+    width: 100%;
+    max-width: 50px;
+    margin: auto;
+}
+.omla_wallet_int_img img
+{
+    width: 100%;
+}
+.omla_int_product_title
+{
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.omla_int_action_buttons
+{
+    width: 100%;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+.omla_int_action_buttons .omla_add_to_wallet,
+.omla_int_action_buttons .omla_int_learn_more
+{
+    width: 100%;
+    min-width: 125px;
+    margin: 5px 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 11pt;
+}
+
+@media screen and (min-width: 600px)
+{
+    .omla_product_icon_wallet
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .omla_product_title_wallet
+    {
+        width: calc(75% - 50px);
+        font-size: 14pt;
+    }
+    .omla_product_remove_wallet
+    {
+        width: calc(27% - 50px);
+    }
+    
+    .omla_int_action_buttons .omla_add_to_wallet,
+    .omla_int_action_buttons .omla_int_learn_more
+    {
+        font-size: 14pt;
+        min-width: 150px;
+    }
+    
+}
+

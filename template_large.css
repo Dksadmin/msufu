@@ -1,0 +1,265 @@
+/*Large Sized Style Sheet*/
+
+/*Base Template Styles should begin here*/
+.htemp_main_container
+{
+    min-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 10px;
+}
+.htemp_sec_conatiner
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.element_width_25
+{
+    width: 25%;
+}
+.element_width_50
+{
+    width: 50%;
+}
+.element_width_33
+{
+    width: 33.333333%;
+}
+.element_width_100
+{
+    width: 100%;
+}
+.hide_desktop
+{
+    display: none;
+}
+.hide_mobile
+{
+    display: block;
+}
+/*Base Template Styles should end here*/
+
+/*Style For Card Grid Begins*/
+.htemp_grid_img
+{
+    display: inline-block;
+    width: 25%;
+}
+.htemp_grid_content
+{
+    display: inline-block;
+    width: 75%;
+}
+.htemp_grid_content_title
+{
+    font-size: 16pt;
+}
+.htemp_grid_content_body
+{
+    font-size: 12pt;
+}
+/*Style For Card Grid Ends*/
+
+/*Image Card Sections (Left and Right) Begin*/
+.htemp_imgsec_container
+{
+    min-height: 375px;
+    min-height: 600px;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.htemp_imgsec_img
+{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.htemp_imgsec_content
+{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    max-width: 650px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.htemp_imgsec_bodyleft
+{
+    right: 50%;
+}
+.htemp_imgsec_bodyright
+{
+    left: 50%;
+}
+.htemp_imgsec_title
+{
+    font-size: 16pt;
+    background-color: transparent;
+    color: #000;
+    width: 90%;
+    padding: 0;
+}.htemp_imgsec_oucu_title
+{
+    
+}
+.htemp_imgsec_msufcu_title
+{
+    color: #004f39;
+}
+
+.htemp_imgsec_body
+{
+    font-size: 12pt;
+}
+.htemp_imgsec_action_banner
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.htemp_imgsec_action_banner a
+{
+    width: 50%;
+    margin: 0;
+}
+.htemp_imgsec_action_banner_left a
+{
+    margin-left: 5%;
+}
+.htemp_imgsec_action_banner_right a
+{
+    margin-left: auto;
+}
+/*Image Card Sections (Left and Right) End*/
+
+/*Style for Basic Intro Section with Title, Text, and Img Begin*/
+.htemp_bintro_container
+{
+
+}
+.htemp_bintro_img
+{
+    display: inline-block;
+}
+.htemp_bintro_img img
+{
+    
+}
+.htemp_bintro_content
+{
+    width: 75%;
+}
+.htemp_inline_display
+{
+    display: inline-block;
+}
+.htemp_bintro_title
+{
+    font-size: 24pt;
+    padding: 0 0 20px;
+}
+.htemp_bintro_body
+{
+    font-size: 16pt;
+    line-height: 28px;
+}
+.htemp_bintro_action
+{
+    font-size: 12pt;
+}
+/*Style for Basic Intro Section with Title, Text, and Img End*/
+
+/*Style for Image Wheel Section with Title, Text, and Imgs Begin*/
+.htemp_iw_content_container,
+.htemp_iw_img_container
+{
+    display: inline-block;
+    width: 50%;
+}
+/*Style for Image Wheel Section with Title, Text, and Imgs End*/
+
+/*Style for Professional Profile & Profile Submenu*/
+.htemp_psm_main_container
+{
+    display: flex;
+    height: 180px;
+}
+
+.htemp_prf_sec_container
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.htemp_prf_header_container
+{
+    text-align: left;
+}
+
+.htemp_prf_cards_container
+{
+    width: 65%;
+    padding: 5px 30px;
+}
+
+.htemp_prf_contact_main_container
+{
+    width: 35%;
+}
+
+.htemp_prf_contact_name
+{
+    text-align: left;
+}
+
+.vcard_form
+{
+    text-align: center;
+}
+/*Style for Professional Profile & Profile Submenu ENDS*/
+
+/* Styles for Header Elements Begin */
+
+.htemp_header_image_container
+{
+    height: 200px;
+}
+
+/* Styles for Header Elements End */
+
+/*Styles for Site Map Begin*/
+.sm_group_container
+{
+    width: 25%;
+}
+/*Styles for Site Map End*/
+/* Styles for Sub Menu Begin */
+
+.htemp_header_sub_menu_container
+{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #d9d9d9;
+}
+
+.htemp_header_sub_menu
+{
+    position: absolute;
+    width: 1200px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Styles for Sub Menu End */

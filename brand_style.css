@@ -1,0 +1,237 @@
+
+/*This is the Brand Styles for MSUFCU home page*/
+
+#ps_header_search_icon:hover, .ps_header_search_icon_selected
+{
+	background-color: #517f72;
+}
+#ps_header_search_icon
+{
+	/*background-image: url('https://media.msufcu.org/publicsites/publicsite/icons/search_white.png');*/
+}
+@media only screen and (min-width: 900px)
+{
+	.psh_brand_logo {
+		width: 225px;
+	}
+}
+.psh_search_input
+{
+	background-image: url('https://media.msufcu.org/publicsites/publicsite/icons/msufcu/search.png');
+}
+#ps_header_main_search_container
+{
+	background-color: #517f72;
+}
+.cl_login_header_container
+{
+	background-color: #004f39;
+}
+.hp_ns_header_title
+{
+	color: #004f39;
+}
+.hp_highlighted_links_container
+{
+	color: #004f39;
+}
+.hp_hl_action_tag
+{
+	color: #004f39;
+}
+
+
+.hp_promos_left, .hp_promos_right
+{
+	background: rgba(0,79,57,0.6);
+}
+
+.hp_prod_main_contianer
+{
+    
+}
+.hp_prod_left
+{
+    background-color: #EAEEE2;
+}
+.hp_prod_mbr_savings_title
+{
+    color: #004f39;
+}
+.hp_prod_mbr_savings
+{
+    color: #434343;
+}
+.mbr_savings_bg
+{
+    box-shadow: 0px 0px 50px 0px #3F594A;
+}
+.hp_highlighted_links_container
+{
+	background-color: #eaeee2; 
+}
+.rate_cat_name
+{
+    color: #004f39;
+}
+.rate_cat_apply
+{
+    color: #517F72;
+}
+.rate_cat_apply a
+{
+    color: #517F72;
+}
+.rate_cat_apply a:hover
+{
+    color: #004f39;
+}
+.hpr_menu_item > a
+{
+	background-color: #004f39;
+}
+.hpr_menu_item_selected > a
+{
+	color: #004f39;
+    background-color: #ffffff;
+}
+
+.hp_prod_action_label
+{
+	color: #426e5f;
+}
+
+.hp_promotion_hover
+{
+	background-color: #004f39;
+}
+.hp_pm_bottom_border
+{
+	background-color: #004f39;
+}
+
+.hp_highlighted_links_container
+{
+	color: #004f39;
+}
+.hp_hl_action_tag
+{
+	color: #004f39;
+}
+.cl_login_forgot_username, .cl_login_forgot_password
+{
+	color: #004f39;
+}
+
+.psh_secondary_nav_item
+{
+	color: #004f39;
+}
+.psh_secondary_nav_item > a
+{
+	color: #004f39;
+}
+
+#psh_main_nav_container 
+{
+	background-color: #004f39;
+}
+
+.psh_all_submenus 
+{
+	background-color: #517f72;
+}
+
+.ps_menu_parent_item_selected
+{
+	background-color: #517f72;
+}
+.ps_menu_parent_item_selected > a
+{
+	color: #ffffff;
+}
+
+.psh_main_nav_sub_container
+{
+	/*background-color: #004f39;*/
+}
+.ps_special_open_an_account > a,
+.psh_secondary_nav_mobile_item > a
+{
+	color: #ffffff;
+	background-color: #517f72;
+}
+.ps_special_open_an_account > a:hover,
+.psh_secondary_nav_mobile_item > a:hover
+{
+	background-color: #004f39;
+}
+
+#ps_header_search_icon:hover
+{
+	background-color: #517f72;
+}
+
+.cl_login_form input[type=text]:focus,
+.cl_login_form input[type=password]:focus
+{
+	outline: none;
+	border: 1px solid #9cb7af;
+	-webkit-box-shadow: 0px 0px 4px #517f72;
+	-moz-box-shadow: 0px 0px 4px #517f72;
+	box-shadow: 0 0 5px #517f72;
+}
+
+
+/*Footer Branded Styles*/
+#psf_diclaimer_container a
+{
+    color: #004f39;  
+}
+.psf_main_nav_item a
+{
+    color: #004f39;
+}
+.psf_main_nav_item a:hover
+{
+    color: #517f72;
+}
+.info_box a
+{
+    color: #004f39;
+}
+.information_title
+{
+    color: #517f72;
+}
+.top_arrow
+{
+    color: #004f39;
+}
+.footer_nav_list a:hover
+{
+    color: #517f72;
+}
+.copyright_container,
+#psf_diclaimer_container
+{
+    color: #004f39;
+}
+.psf_main_nav_item:nth-child(2)
+{
+    border-color: #004f39;
+}
+.brand_title
+{
+    color: #517f72;
+}
+
+.psh_computerline_signin_filler
+{
+	background-color: #004f39;
+}
+
+.ada_footer
+{
+    background-color: #517F72;
+}

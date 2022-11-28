@@ -1,0 +1,55 @@
+/*Branded Styles for MSUFCU for HTML Templates*/
+
+/*General Styles for Branded Information*/
+.primary_font
+{
+    color: #004f39;
+}
+.sec_font
+{
+    color: #517f72;
+}
+.primary_background
+{
+    background-color: #004f39;
+}
+.sec_background
+{
+    background-color: #517f72;
+}
+/*General Styles for Branded Information*/
+
+/***Styles Specific to Template Buttons***/
+.btn_brand_primary
+{
+    background-color: #004f39;
+}
+.btn_brand_primary:hover
+{
+    background-color: #094635;
+}
+/***Styles Specific to Template Buttons***/
+
+/***DatePicker Branded Styles***/
+.ui-widget-header
+{
+    background: #004f39;
+    color: #fff;
+}
+
+/***DatePicker Branded Styles***/
+
+.htemp_form_header 
+{
+	color: #004f39;
+}
+
+/****SITE MAP****/
+.sm_header_title,
+.sm_title,
+.sm_top_title,
+.sm_secondary_title h3,
+.sm_tertiary_title h4
+{
+    color: #004f39;
+}
